@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2775A3"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="SELAMAT BERGABUNG"
+        android:textAlignment="center"
+        android:textColor="#F0F8FF"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="165dp"
+        android:layout_height="200dp"
+        android:background="#00FBFBFB"
+        android:outlineSpotShadowColor="#fff"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/et_Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#8DFFFFFF"
+        android:hint="Username"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="#CD535353"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/et_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#8CFFFFFF"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="#CC535353"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bt_login_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:padding="12dp"
+        android:text="LOGIN"
+
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+</LinearLayout>
